@@ -1,0 +1,216 @@
+/*Essential*/
+html {
+    background: #e6e9e9;
+    background-image: url("images/wallpaper1.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    /*Background codes*/
+    background-image: url(wallpaper2.jpg),url("wallpaper1.jpg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;/**/
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    background-blend-mode:overlay;
+    
+    /*Content*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1150px;
+	padding-top:auto;
+	padding: 2em 4em 2em;
+}
+/*Essential*/
+
+
+
+
+
+/*Snow Flake Start*/
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+
+
+.snowflake:hover {
+    cursor: default;
+}
+
+/*Snow Flake Ends */
+
+
+
+
+
+/* Div Navigation */
+div.navigation ul {
+    list-style-type: none;
+    margin-left: 40px;
+    
+    padding: 0;
+    overflow:hidden;
+    /*background-color:#2bd7ff;*/
+}
+
+div.navigation ul li {
+    border: 2px solid grey;
+    padding: 2px;
+    border-radius: 10px;
+    background-image: url(wallpaper4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.navigation li {
+    float:left;
+}
+
+div.navigation li a {
+    /*color:#86b5f3;*/
+	color:ghostwhite;
+    font-weight: bold;
+    display: inline;
+    text-align: center;
+    padding: 14px 10px;
+    height: 25px;
+    width: 100% auto;
+    text-decoration: none;
+	text-shadow: 2px 2px grey;
+}
+
+div.navigation a:hover {
+    text-decoration: underline;
+    background-color: #XXXXXX;
+	color:lightblue;
+}
+
+div.navigation a {
+	color: lightgray;
+    font-size: 22px;
+}
+/* Div Navigation */
+
+
+
+
+
+
+/*Section myprofile */
+#theitworld {
+	background: rgba(192, 192, 192, 0.5);	
+	border: 2px solid grey;
+	border-radius: 10px;
+	margin:0 auto;
+	padding: 0 auto;
+}
+
+#theitworld h1 {
+	text-align: center;
+}
+/*Section myprofile */
+
+
+
+
+
+/* Section References*/
+#reference h3 {
+    text-align: center;
+	text-decoration: underline;
+}
+
+#reference ul {
+	list-style-type: none;
+	padding-right:50px;
+	
+}
+
+#reference ul li {
+	font-weight: bold;
+}
+
+#reference a {
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+#reference a:hover {
+	text-decoration: underline;
+	color: lightskyblue;
+	text-shadow: 2px 2px grey;
+}
+
+#reference li {
+	text-align: center;
+}
+/* Section References*/
+
+
+/* Section Table */
+#info, ul {
+    color: white;
+    
+}
+
+
+#info, table {
+    border-color: white;
+}
+#name {
+    font-size: 35px;
+}
+
+/* Section Table */
+
+
+/*Section body*/
+#body, img {
+    color: white;
+}
+/*Section body*/
+
+
+/*Field Set*/
+fieldset {
+    background: rgba(79, 76, 76, 0.7);
+    border: 2px solid grey;
+	border-radius: 10px;
+}
+
+
+fieldset legend {
+    background: rgba(79, 76, 76, 0.7);
+    border: 2px solid grey;
+	border-radius: 10px;
+    text-align: center;
+    background-blend-mode: overlay;
+    font-family: impact;
+    color: #00bbff; 
+    border-width: thin;
+    letter-spacing: 1.5px;
+    border-bottom: none;
+    border-style: solid;    
+}
+/*Field Set*/
+
+
